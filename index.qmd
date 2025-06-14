@@ -1,0 +1,74 @@
+---
+title: "Denis Bakin"
+image: "resources/images/profile_pic.png"
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 70%
+  links:
+    - icon: github
+      text: GitHub
+      href: https://www.github.com/dfbakin
+      target: _blank
+    - icon: envelope
+      text: E-mail
+      href: mailto:denis.bakin5@gmail.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+      target: _blank
+    # - icon: youtube
+    #   text: YouTube
+    #   href: https://www.youtube.com
+    #   target: _blank
+
+    - icon: telegram
+      text: Telegram
+      href: https://t.me/dfbakin
+      target: _blank
+
+# listing:
+#   - id: recent-posts
+#     contents:
+#       - posts
+#       - posts/post-links.yml
+#     exclude:
+#       title: ""
+#     type: grid
+#     max-items: 3
+# #    image-height: 150px
+#     page-size: 3 #set same as max-times to remove the page number setting
+#     fields: [image, date, title, subtitle]
+#     max-description-length: 75
+#     sort:
+#       - "date desc"
+#       - "title asc"
+---
+
+:::{#hero-heading}
+
+## Welcome to the C++ Course 2024
+
+This course is designed to provide a comprehensive introduction to C++ programming, covering fundamental concepts such as variables, control structures, functions, and object-oriented programming. Whether you're a beginner or looking to enhance your skills, this course will guide you through practical examples and hands-on exercises to build a strong foundation in C++.
+
+## Contact Me
+- **Telegram**: [@dfbakin](https://t.me/dfbakin)
+- **Email**: [denis.bakin5@gmail.com](mailto:denis.bakin5@gmail.com)
+
+---
+
+
+<!-- :::
+
+## Recent Posts
+Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+
+:::{#recent-posts}
+:::
+
+<p align="right">[All Posts »](/posts.qmd)</p> -->
