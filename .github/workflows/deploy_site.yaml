@@ -32,6 +32,6 @@ jobs:
           switches: -avzr --delete
           path: cpp24_dfbakin_com
           remote_path: /var/websites
-          remote_host: cpp24.dfbakin.com
+          remote_host: dfbakin.com
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
