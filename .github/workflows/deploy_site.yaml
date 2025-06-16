@@ -7,15 +7,11 @@ on:
 jobs:
   quarto-render-and-deploy:
     runs-on: ubuntu-latest
+    container:
+      image: bakindf/quarto_deploy_container
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Setup DVC
-        uses: iterative/setup-dvc@v1
-
-      - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Pull website resources
         run: dvc pull resources.dvc
