@@ -20,13 +20,15 @@ website:
       # - text: Расписание
       #   href: main_pages/schedule.qmd
       - text: Материалы лекций
-        href: main_pages/lectures.qmd
+        href: main_pages/lectures_template/lectures.qmd
+      - text: Домашние задания
+        href: main_pages/assignments_template/assignments.qmd
       - text: Lyceum DMOJ (placeholder)
         href: https://google.com
         target: _blank
-      - text: Contact me (TODO)
+      - text: Контакты (TODO)
         href: https://dfbakin.com/contacts
-      - text: Guides (TODO)
+      - text: Гайды (TODO)
         href: https://google.com
 
       # - text: About
@@ -86,8 +88,8 @@ website:
 format:
   html:
     theme:
-      dark: darkly
-      light: cosmo
+      dark: superhero
+      light: lux
     css: styles.css
     toc: true
     footnotes-hover: true

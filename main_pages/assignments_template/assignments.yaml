@@ -1,0 +1,36 @@
+- title: Вступление
+  number: 1
+  description: Введение в курс, обзор тем и целей
+  links:
+    - text: Group 1
+      href: https://dmoj.dfbakin.com/contests/sample_contest_group_1
+    - text: Group 2
+      href: https://dmoj.dfbakin.com/contests/sample_contest_group_2
+    - text: Group 3
+      href: https://dmoj.dfbakin.com/contests/sample_contest_group_3
+    - text: Group 4
+      href: https://dmoj.dfbakin.com/contests/sample_contest_group_4
+    - text: Group 5
+      href: https://dmoj.dfbakin.com/contests/sample_contest_group_5
+  updates: 
+    - text: "01-02-2024: Fixed problem A"
+    - text: "01-02-2024: Corrected typos in problem B"
+
+- title: Основы программирования
+  number: 2
+  description: Изучение базовых концепций программирования, таких как переменные, типы данных и операторы
+  links:
+    - text: Group 1
+      href: https://dmoj.dfbakin.com/contests/basic_programming_group_1
+    - text: Group 2
+      href: https://dmoj.dfbakin.com/contests/basic_programming_group_2
+    - text: Group 3
+      href: https://dmoj.dfbakin.com/contests/basic_programming_group_3
+    - text: Group 4
+      href: https://dmoj.dfbakin.com/contests/basic_programming_group_4
+    - text: Group 5
+      href: https://dmoj.dfbakin.com/contests/basic_programming_group_5
+  updates: 
+    - text: "10-02-2024: Added explanation for problem C"
+    - text: "12-02-2024: Updated constraints for problem D"
+  
