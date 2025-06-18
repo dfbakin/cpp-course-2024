@@ -22,10 +22,6 @@ about:
       text: LinkedIn
       href: https://linkedin.com
       target: _blank
-    # - icon: youtube
-    #   text: YouTube
-    #   href: https://www.youtube.com
-    #   target: _blank
 
     - icon: telegram
       text: Telegram
@@ -52,9 +48,9 @@ about:
 
 :::{#hero-heading}
 
-## Welcome to the C++ Course 2024
+## Добро пожаловать на курс C++ 2024
 
-This course is designed to provide a comprehensive introduction to C++ programming, covering fundamental concepts such as variables, control structures, functions, and object-oriented programming. Whether you're a beginner or looking to enhance your skills, this course will guide you through practical examples and hands-on exercises to build a strong foundation in C++.
+Курсы был разработан для 2024-2025 учебного года и охватывает основы программирования на C++, а также алгоритмы начального уровня
 
 ## Contact Me
 - **Telegram**: [@dfbakin](https://t.me/dfbakin)
