@@ -1,54 +1,49 @@
-- title: Вступление
+- title: Переменные, ввод-вывод, операции
   number: 1
-  description: Введение в курс, обзор тем и целей
-  presentation: /lectures/1/presentation.pdf
-  material: /lectures/1/notes.html
-  youtube: https://google.com
-  gdrive: https://google.com
-  s3_download_link: https://google.com
-  quiz: https://google.com
-- title: Основы Python
+  description: Переменные, ввод-вывод, операции
+  material: /lectures/io_variables/notes.html
+
+- title: Условия, ветвление, отладка
   number: 2
-  description: Основные концепции и синтаксис Python
-  presentation: /lectures/2/presentation.pdf
-  material: /lectures/2/notes.html
-  youtube: https://google.com
-  gdrive: https://google.com
-  s3_download_link: https://google.com
-  quiz: https://google.com
-- title: Основы Python
+  description: Условия, ветвление, отладка
+  material: /lectures/conditions/notes.html
+
+- title: Циклы
   number: 3
-  description: Основные концепции и синтаксис Python
-  presentation: /lectures/2/presentation.pdf
-  material: /lectures/2/notes.html
-  youtube: https://google.com
-  gdrive: https://google.com
-  s3_download_link: https://google.com
-  quiz: https://google.com
-- title: Основы Python
+  description: Циклы
+  material: /lectures/cycles/notes.html
+
+- title: Работа с std::vector
   number: 4
-  description: Основные концепции и синтаксис Python
-  presentation: /lectures/2/presentation.pdf
-  material: /lectures/2/notes.html
-  youtube: https://google.com
-  gdrive: https://google.com
-  s3_download_link: https://google.com
-  quiz: https://google.com
-- title: Основы Python
+  description: Работа с std::vector
+  material: /lectures/std_vector/notes.html
+
+- title: O-нотация. Теория чисел
   number: 5
-  description: Основные концепции и синтаксис Python
-  presentation: /lectures/2/presentation.pdf
-  material: /lectures/2/notes.html
-  youtube: https://google.com
-  gdrive: https://google.com
-  s3_download_link: https://google.com
-  quiz: https://google.com
-- title: Основы Python
+  description: O-нотация. Теория чисел
+  material: /lectures/complexity_prime_numbers/notes.html
+
+- title: Ссылки, указатели, работа с памятью
   number: 6
-  description: Основные концепции и синтаксис Python
-  presentation: /lectures/2/presentation.pdf
-  material: /lectures/2/notes.html
-  youtube: https://google.com
-  gdrive: https://google.com
-  s3_download_link: https://google.com
-  quiz: https://google.com
+  description: Ссылки, указатели, работа с памятью
+  material: /lectures/ref_ptr_files/notes.html
+
+- title: Функции
+  number: 7
+  description: Функции
+  material: /lectures/functions/notes.html
+
+- title: Константность. Структуры
+  number: 8
+  description: Константность. Структуры
+  material: /lectures/const_structures/notes.html
+
+- title: STL --- 1
+  number: 9
+  description: STL --- 1
+  material: /lectures/stl_1/notes.html
+
+- title: STL --- 2
+  number: 10
+  description: STL --- 2
+  material: /lectures/stl_2/notes.html
