@@ -1,8 +1,8 @@
 ---
-title: Домашние задания
+title: Задания
 description-meta: "Ссылки и материалы курса 'Программирование на C++' для Лицея НИУ ВШЭ"
 listing:
-  - id: lectures
+  - id: assignments
     contents:
       - assignments.yaml
     template: assignments_template.ejs
