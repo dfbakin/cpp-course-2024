@@ -17,19 +17,17 @@ website:
     left:
       - text: Описание курса
         href: index.qmd
-      # - text: Расписание
-      #   href: main_pages/schedule.qmd
       - text: Материалы лекций
-        href: main_pages/lectures_template/lectures.qmd
-      - text: Домашние задания
-        href: main_pages/assignments_template/assignments.qmd
+        href: main_pages/lectures/lectures.qmd
+      - text: Задания
+        href: main_pages/assignments/assignments.qmd
       - text: Lyceum DMOJ (placeholder)
         href: https://google.com
         target: _blank
       - text: Контакты
         href: https://dfbakin.com/contacts
-      - text: Гайды (TODO)
-        href: https://google.com
+      - text: Гайды
+        href: main_pages/guides/guides.qmd
 
       # - text: About
       #   menu:
@@ -76,7 +74,6 @@ website:
   open-graph: true
 
   twitter-card: true
-#  card-style: summary
 
   site-url: "https://cpp24.dfbakin.com"
 
