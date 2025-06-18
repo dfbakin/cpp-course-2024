@@ -3,6 +3,7 @@ title: "Работа с std::vector"
 format:
   html:
     math: true
+    page-layout: full
 ---
 
 # Мотивация

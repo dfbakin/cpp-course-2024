@@ -3,7 +3,7 @@ title: "Условия, ветвление, отладка"
 format:
   html:
     math: true
-jupyter: python3
+    page-layout: full
 ---
 
 ## Переполнение целых типов
