@@ -17,8 +17,8 @@ format:
 #include <vector>
 
 int main() {
-    const std::vector<std::vector<int>> data = {{1, 2, 3}, 
-                                                {4, 5, 6}, 
+    const std::vector<std::vector<int>> data = {{1, 2, 3},
+                                                {4, 5, 6},
                                                 {7, 8, 9}};
     std::cout << data[0][0] << ' ' << data[1][1] << ' ' << data[2][2] << '\n';
     // 1 5 9
@@ -56,7 +56,7 @@ int main() {
             std::cin >> matrix[i][j];
         }
     }
-    // тип matrix[i] -- это std::vector<int> -- как и раньше, 
+    // тип matrix[i] -- это std::vector<int> -- как и раньше,
     //переходим к элементу вектора по индексу
 
     // напечатаем матрицу, выводя элементы через табуляцию
@@ -67,7 +67,7 @@ int main() {
         std::cout << '\n';
     }
     std::cout << '\n';
-  
+
     // элементы на диагонале обладают равными индексами (см. иллюстрации выше)
     for (size_t i = 0; i < std::min(n, m); ++i) {
         std::cout << matrix[i][i] << ' ';
@@ -133,4 +133,3 @@ int findMaxValue(const std::vector<std::vector<int>>& matrix) {
 ```
 
 В домашнем задании буду задачи на обход двумерных векторов для поиска максимального значения при соблюдении разных условий
-

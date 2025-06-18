@@ -364,10 +364,10 @@ int main() {
 
     // обязательный и оба необязательных
     printMessage("Some line of text", '=', 5); // "===== Some line of text =====\n"
-  
+
     // вывод без границы (только пробелы останутся)
     printMessage("Some line of text", 'a', 0); // " Some line of text \n"
-  
+
     return 0;
 }
 ```
@@ -421,28 +421,28 @@ int main() {
     ```C++
     #include <iostream>
     #include <string>
-    
+
     // Overload 1: Log with a simple message
     void logger(const std::string& message) {
         std::cout << "[INFO]: " << message << std::endl;
     }
-    
+
     // Overload 2: Log with an error code and message
-    
+
     void logger(int errorCode, const std::string& message) {
         std::cout << "[ERROR " << errorCode << "]: " << message << std::endl;
     }
-    
+
     // Overload 3: Log with a message and a severity level (e.g., INFO, WARNING, ERROR)
     void logger(const std::string& message, const std::string& severity) {
         std::cout << "[" << severity << "]: " << message << std::endl;
     }
-    
+
     int main() {
         logger("System started successfully.");
         logger(404, "Resource not found.");
         logger("Disk space running low", "WARNING");
-    
+
         return 0;
     }
     ```
@@ -494,7 +494,7 @@ int main() {
         return a + b;
     };
     int result = adder(first, second);
-    std::cout << "Sum is " << result << '\n';  
+    std::cout << "Sum is " << result << '\n';
 }
 ```
 
@@ -514,14 +514,14 @@ int getSum(int a, int b) {
 }
 
 int main() {
-    int increment_by = 15;  
+    int increment_by = 15;
     auto ref_incrementer = [&](int num){ // захват по ссылке
         return num + increment_by;
     };
     std::cout << ref_incrementer(15) << '\n'; // 30
     increment_by = 10; // это изменение повлияет на лямбда функцию
     std::cout << ref_incrementer(15) << '\n'; // 25
-  
+
 }
 ```
 :::
@@ -535,14 +535,14 @@ int getSum(int a, int b) {
 }
 
 int main() {
-    int increment_by = 15;  
+    int increment_by = 15;
     auto ref_incrementer = [=](int num){ // захват по значению
         return num + increment_by;
     };
     std::cout << ref_incrementer(15) << '\n'; // 30
     increment_by = 10; // это изменение НЕ повлияет на лямбда функцию
     std::cout << ref_incrementer(15) << '\n'; // 30
-  
+
 }
 ```
 :::
@@ -577,6 +577,3 @@ int main() {
     exampleFunc(b, is_even); // "Checker return true for this value!"
 }
 ```
-
-
-

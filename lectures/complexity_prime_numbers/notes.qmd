@@ -67,7 +67,7 @@ $f_2(n) = 1^2 + 2^2 + \dots + n^2 = \frac{n(n + 1)(2n + 1)}{6} = O(n^3)$
 #include <iostream>
 #include <algorithm>
 #include <vector>
- 
+
 int main() {
     std::vector<int> data = {1, 2, 5, 2, 3, 1, -1, 5, 2, 1};
     int max = data[0], min = data[0];
@@ -75,7 +75,7 @@ int main() {
         max = std::max(max, data[i]);
         min = std::min(min, data[i]);
     }
- 
+
     printf("%d\n", max - min);
 }
 ```
@@ -100,7 +100,7 @@ $n \cdot (2 + 1) + 1 = 3n + 1 < 5n < 10n < 10^6 n = O(n)$
 int main() {
     int num;
     std::cin >> num;
-  
+
     int cnt = 0;
     while (num) {
         cnt += num % 2;
@@ -277,7 +277,7 @@ for a: 2 -> sqrt(n)
 
 if n != 1, то # n было простым
     добавить a в массив data
-    
+
 data содержит все делители
 ```
 
@@ -292,10 +292,10 @@ data содержит все делители
 
 int main() {
     std::vector<int> data = {1, 5, 2, 4, 3};
-  
+
     std::sort(data.begin(), data.end()); // теперь вектор отсортирован
     // data равняется {1, 2, 3, 4, 5}
-    
+
     for (int elem: data) {
         std::cout << elem << ' ';
     }

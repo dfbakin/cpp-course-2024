@@ -119,4 +119,3 @@ $$
 Идея: приблизить функцию линейными функциями на каждом из малых отрезков. Площадь на отрезке под прямой можно легко найти.
 
 Иллюстрация: [https://www.geogebra.org/calculator/cxwmudtz](https://www.geogebra.org/calculator/cxwmudtz)
-

@@ -203,7 +203,7 @@ int main() {
 ```C++
 #include <iostream>
 #include <fstream>
- 
+
 int main() {
     std::ofstream out;          // поток для записи
     out.open("hello.txt");      // открываем файл для записи
@@ -225,10 +225,10 @@ int main() {
 #include <iostream>
 #include <fstream>
 #include <string>     // для std::getline
- 
+
 int main() {
     std::string line;
- 
+
     std::ifstream in("hello.txt"); // окрываем файл для чтения
     if (in.is_open()) {
         while (std::getline(in, line)) {
@@ -285,4 +285,3 @@ int main() {
 }
 
 ```
-

@@ -189,7 +189,7 @@ t1 = {2, "world", 3.14}
 {2, "world", 3.14} < {2, "worla", 100}:         0
 ```
 
-Шаблонная функция `std::tie(Args...)`создает кортеж из тех типов, которые ей были переданы. Например: 
+Шаблонная функция `std::tie(Args...)`создает кортеж из тех типов, которые ей были переданы. Например:
 `std::tuple<int, double, std::string> variable = std::tie(42, 12.8, "some_line");`
 
 
@@ -240,7 +240,7 @@ int main() {
     }
 
     data.erase("hello");  // удаление
-  
+
     data["new_key"] = 42;
     data["new_key"] += 24;
 
@@ -262,4 +262,3 @@ test 42
 ^D
 Found the key test with the value 42
 ```
-

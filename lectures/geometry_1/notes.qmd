@@ -62,14 +62,14 @@ r operator-(r a, r b) { return {a.x - b.x, a.y - b.y}; }
 Как вы думаете, как на самом деле работает `cin >> x`? Это тоже перегрузка оператора: `>>`. Делается это так:
 
 ```C++
-istream& operator>>(istream &in, r &p) { 
+istream& operator>>(istream &in, r &p) {
     in >> p.x >> p.y;
     return in;
 }
 
-ostream& operator<<(ostream &out, r &p) { 
+ostream& operator<<(ostream &out, r &p) {
     out << p.x << " " << p.y << endl;
-    return out;            
+    return out;
 }
 ```
 
@@ -287,9 +287,9 @@ $$
     -x = \frac{B_1 y + C_1}{A_1} \\
     -x = \frac{B_2 y + C_2}{A_2}
     \end{cases}
-    \implies 
+    \implies
     \frac{B_1 y + C_1}{A_1} = \frac{B_2 y + C_2}{A_2}
-    \implies 
+    \implies
     y = - \frac{A_1 C_2 - A_2 C_1}{A_1 B_2 - A_2 B_1}
 $$
 
@@ -328,4 +328,3 @@ r reflect(r a, r b, r c) {
     return c + 2*(pr(a, b, c)-c);
 }
 ```
-

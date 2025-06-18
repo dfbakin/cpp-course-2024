@@ -173,7 +173,7 @@ int main() {
 
     }
     printf("Program finished\n");
-  
+
 }
 ```
 
@@ -190,17 +190,17 @@ int main() {
 int main() {
     float number;
     std::cin >> number;
-  
+
     // if (number == 3.0) {
         // INCORRECT
     // }
-  
+
     if (std::abs(number - 3.0) < 0.000001) { // проверяем на равенство числу 3.0
         std::cout << "you have entered 3.0\n";
     }
 
     printf("Program finished\n");
- 
+
 }
 ```
 
@@ -312,7 +312,7 @@ int main() {
     } else {
         printf("NO\n");
     }
- 
+
 }
 ```
 
@@ -415,6 +415,3 @@ $\underbrace{1 \text{ bit}}_{\text{sign}}
 - как точность записи рационального числа зависит от его модуля? при чем здесь экспонента (`exp`) при записи в память?
 - сколько есть способов записать 0?
 - как перемножить 2 `float`? то есть как манипулировать какими частями битовой записи, чтобы это было эффективно?*
-
-
-

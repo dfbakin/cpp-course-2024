@@ -17,15 +17,15 @@ format:
 
 int main() {
     // известна до компиляции (compile time)
-    const int const_var_1 = 42;  
+    const int const_var_1 = 42;
 
     int number;
     std::cin >> number;
     // определяется только во время исполнения (run time)
-    const int const_var_2 = 2 * number;  
+    const int const_var_2 = 2 * number;
 
     const_var_1 += 1; // невозможно, будет ошибка компиляции
-    
+
 }
 ```
 
@@ -84,11 +84,11 @@ int main() {
     std::getline(std::cin, input_line);
     // мы уверены, что строке не будет изменена
     std::cout << countChar(input_line, 'a') << '\n';
-  
+
     // было бы невозможно с неконстантной ссылкой: переменная константна
     const std::string const_line = "another constant line";
     std::cout << countChar(const_line, 'a') << '\n';
-  
+
     // было бы невозможно с неконстантной ссылкой: переменной по факту нет
     std::cout << countChar("some random line with many aaaaa", 'a') << '\n';
 }
@@ -156,7 +156,7 @@ int main() {
             std::cin >> matrix[i][j];
         }
     }
-    // тип matrix[i] -- это std::vector<int> -- как и раньше, 
+    // тип matrix[i] -- это std::vector<int> -- как и раньше,
     //переходим к элементу вектора по индексу
 
     // напечатаем матрицу, выводя элементы через табуляцию
@@ -447,7 +447,7 @@ struct TestStruct2 {
 struct TestStruct1 { // 24 байта
     char a;
     int b;
-    char c; 
+    char c;
     double d;
 };
 ```
@@ -458,7 +458,7 @@ struct TestStruct1 { // 24 байта
     char a;
     char gap_1[3];
     int b;
-    char c; 
+    char c;
     char gap_2[7];
     double d;
 };
@@ -468,7 +468,7 @@ struct TestStruct1 { // 24 байта
 struct TestStruct1 { // 16 байта
     double d;
     int b;
-    char c; 
+    char c;
     char a;
 };
 ```

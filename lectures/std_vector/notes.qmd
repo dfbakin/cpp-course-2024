@@ -22,7 +22,7 @@ format:
      std::vector<int> data;         // пустой вектор
      std::vector<int> data(10);     // вектор длины 10, элементы не инициализированы
      std::vector<int> data(10, -1); // вектор длины 10, все элементы равны -1
-  
+
      std::vector<int> data = {1, 2, 3, 4}; // вектор {1, 2, 3, 4}
      std::vector<int> data{1, 2, 3, 4};    // вектор {1, 2, 3, 4}
      std::vector<int> data{10, -1};        // вектор {10, -1}
@@ -90,7 +90,7 @@ int main() {
     data.empty();        // возвращает bool -- true, если вектор пуст
     data.back();         // возвращает последний элемент
     data.front();        // возвращает первый элемент
-    
+
     data.push_back(obj); // добавляет элемент в конец вектора
     data.erase(it_pos);  // удаляет элемент, на который указывает итератор
 }
@@ -107,19 +107,19 @@ int main() {
 int main() {
     int num, d;
     std::cin >> num >> d;
-    
+
     std::vector<int> digits;
     while (num) {
         digits.push_back(num % d);
         num /= d;
     }
- 
+
     std::cout << "Your number has " << digits.size() << " digits\n";
     if (num == 0) {
         std::cout << "0\n";
         return 0;
     }
-  
+
     for (size_t i = digits.size(); i > 0; --i) {
         std::cout << digits[i - 1];
     }
@@ -145,12 +145,12 @@ int main() {
 int main() {
     int length;
     std::cin >> length;
-    
+
     std::vector<int> data(length);
     for (size_t i = 0; i < length; ++i) {
         std::cin >> data[i];
     }
-  
+
     int maxm = 0;
     int cnt = 0;
     for (int elem: data) {
@@ -162,7 +162,7 @@ int main() {
             }
         }
     }
-  
+
     std::cout << cnt;
     if (cnt > 0) { // if maximum was updated at least once
         std::cout << " " << maxm;
@@ -243,7 +243,7 @@ int main() {
 int main() {
     int length;
     std::cin >> length;
-    
+
     std::vector<int> data(length); // вектор size==length, память выделена сразу
     for (size_t i = 0; i < length; ++i) {
         std::cin >> data[i]; // O(1) на операцию -- "моментально"
@@ -258,7 +258,7 @@ int main() {
 int main() {
     int length;
     std::cin >> length;
-    
+
     std::vector<int> data; // вектор size==0
     data.reserve(length); // этот метод выделяет память без изменения размера вектора
     // теперь size==0, capacity==length
