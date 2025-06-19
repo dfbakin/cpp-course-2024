@@ -1,32 +1,9 @@
 ---
-title: "Denis Bakin"
+title: "Курс C++ 2024"
 image: "resources/images/profile_pic.png"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
-
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 70%
-  links:
-    - icon: github
-      text: GitHub
-      href: https://www.github.com/dfbakin
-      target: _blank
-    - icon: envelope
-      text: E-mail
-      href: mailto:denis.bakin5@gmail.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-
-    - icon: telegram
-      text: Telegram
-      href: https://t.me/dfbakin
-      target: _blank
 
 # listing:
 #   - id: recent-posts
@@ -35,7 +12,7 @@ about:
 #       - posts/post-links.yml
 #     exclude:
 #       title: ""
-#     type: grid
+#     type: grids
 #     max-items: 3
 # #    image-height: 150px
 #     page-size: 3 #set same as max-times to remove the page number setting
@@ -46,17 +23,13 @@ about:
 #       - "title asc"
 ---
 
-:::{#hero-heading}
+Курсы был разработан для 2024-2025 учебного года и охватывает основы программирования на C++, а также алгоритмы начального уровня.
 
-## Добро пожаловать на курс C++ 2024
 
-Курсы был разработан для 2024-2025 учебного года и охватывает основы программирования на C++, а также алгоритмы начального уровня
-
-## Contact Me
+## Контакты
 - **Telegram**: [@dfbakin](https://t.me/dfbakin)
 - **Email**: [denis.bakin5@gmail.com](mailto:denis.bakin5@gmail.com)
-
----
+- **Сайт**: [dfbakin.com](https://dfbakin.com)
 
 
 <!-- :::

@@ -21,11 +21,12 @@ website:
         href: main_pages/lectures/lectures.qmd
       - text: Задания
         href: main_pages/assignments/assignments.qmd
-      - text: Lyceum DMOJ (placeholder)
-        href: https://google.com
+      # - text: Lyceum DMOJ (placeholder)
+      #   href: https://google.com
+        # target: _blank
+      - text: Об авторе
+        href: https://dfbakin.com/
         target: _blank
-      - text: Контакты
-        href: https://dfbakin.com/contacts
       - text: Гайды
         href: main_pages/guides/guides.qmd
 
@@ -39,9 +40,9 @@ website:
       #       href: contact.qmd
 
     right:
-      - icon: code-square
-        href: https://google.com
-        target: _blank
+      # - icon: code-square
+      #   href: https://google.com
+      #   target: _blank
       - icon: person-circle
         href: https://dfbakin.com
         target: _blank
