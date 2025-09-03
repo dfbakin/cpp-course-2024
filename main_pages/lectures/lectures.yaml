@@ -2,6 +2,7 @@
   number: 1
   description: Переменные, ввод-вывод, операции
   material: /lectures/io_variables/notes.html
+  presentation: /lectures/io_variables/presentation.pdf
 
 - title: Условия, ветвление, отладка
   number: 2
