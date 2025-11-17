@@ -108,3 +108,8 @@
   number: 21
   description: (Бонус) Стек
   material: /lectures/stack/notes.html
+
+
+- title: Ассоциативные контейнеры
+  number: 22
+  material: /lectures/set_map/notes.html
